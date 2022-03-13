@@ -9,14 +9,16 @@ body{
 	height: 50px;
 	width: 100%;
 	color: #fff;
-	position: fixed;
 	z-index: 1000;
-	opacity: 0.9;
 }
 
 #menu-bar img{
-	height: 100%;
 	float: left;
+	height: 100%;
+}
+#menu-bar ul{
+	float: left;
+	display: inline;
 }
 
 #menu-bar ul li {
@@ -29,6 +31,7 @@ body{
 	font-family: arial;
 	color: #fff;
 	text-decoration: none;
+	font-size: 15px;
 }
 
 #menu-bar a:hover{
@@ -41,10 +44,11 @@ body{
 }
 
 
-
-
 #player{
 	background-color: red;
-	width: 100%;
 	z-index: 0;
+}
+
+#player iframe{
+	background-color: #f90;
 }
