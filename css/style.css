@@ -2,6 +2,8 @@ body{
 	background-color: #1b1b1b;
 	margin: 0;
 	padding: 0;
+	color: #fff;
+	font-family: arial;
 }
 
 #menu-bar{
@@ -40,15 +42,45 @@ body{
 
 #container{
 	width: 80%;
-	height: 1500px;
 }
 
 
 #player{
-	background-color: red;
+	background-color: #1b1b1b;
 	z-index: 0;
+	width: 400px;
+	height: 230px;
+	transition: .5s;
+	margin: auto;
+	
+}
+#player:hover{
+	height: auto;
+	box-shadow: 3px 3px 20px black;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+#vid{
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	transition: .5s;
+}
+#player:hover #vid{
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+#player p{
+	display: none;
+	padding: 20px;
+	font-weight: bold;
+}
+#player:hover p{
+	display: flex;
 }
 
-#player iframe{
-	background-color: #f90;
-}
