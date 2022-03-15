@@ -42,45 +42,38 @@ body{
 
 #container{
 	width: 80%;
+	height: 500px;
+	background-color: red;
+	margin: auto;
 }
 
-
-#player{
+.player{
 	background-color: #1b1b1b;
 	z-index: 0;
-	width: 400px;
-	height: 230px;
-	transition: .5s;
-	margin: auto;
-	
-}
-#player:hover{
-	height: auto;
+	width: 29.33%;
 	box-shadow: 3px 3px 20px black;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
+	float: left;
+	margin: 2%;
 }
+
 #vid{
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
-	transition: .5s;
-}
-#player:hover #vid{
+	width: 100%;
 	-webkit-border-top-left-radius: 10px;
 	-webkit-border-top-right-radius: 10px;
 	-moz-border-radius-topleft: 10px;
 	-moz-border-radius-topright: 10px;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
+	position: sticky;
 }
-#player p{
-	display: none;
-	padding: 20px;
+
+.player p{
+	padding: 10px;
 	font-weight: bold;
+	font-size: 14px;
 }
-#player:hover p{
-	display: flex;
-}
+
 
