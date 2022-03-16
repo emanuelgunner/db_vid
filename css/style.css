@@ -42,24 +42,22 @@ body{
 
 #container{
 	width: 80%;
-	height: 500px;
 	background-color: red;
 	margin: auto;
 }
 
-.player{
+.prev-ep{
+	width: 24.65%;
 	background-color: #1b1b1b;
-	z-index: 0;
-	width: 29.33%;
+	margin: 0;
+	display: inline-block;
 	box-shadow: 3px 3px 20px black;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
-	float: left;
-	margin: 2%;
+	margin: 10px 0 10px 0;
 }
-
-#vid{
+.prev-ep img{
 	width: 100%;
 	-webkit-border-top-left-radius: 10px;
 	-webkit-border-top-right-radius: 10px;
@@ -67,13 +65,56 @@ body{
 	-moz-border-radius-topright: 10px;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
-	position: sticky;
+}
+.prev-ep h1{
+	font-size: 12px;
+	margin: 20px;
+}
+.prev-ep a{
+	text-decoration: none;
+	color: #fff;
+}
+.prev-ep a:hover{
+	color: #f90;
+	transition: .3s;
+}
+.prev-ep:hover img{
+	opacity: 0.5;
+	transition: .3s;
 }
 
-.player p{
-	padding: 10px;
-	font-weight: bold;
-	font-size: 14px;
+.player{
+	background-color: #1b1b1b;
+	z-index: 0;
+	width: 75%;
+	height: 800px;
+	box-shadow: 3px 3px 20px black;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin: auto;
 }
-
-
+.player div{
+	display: inline-block;
+}
+#vid{
+	top: 0;
+	width: 60%;
+	background-color: yellow;
+}
+#vid iframe{
+	width: 100%;
+}
+#text-vid{
+	width: 39%;
+	background-color: green;
+}
+#text-vid h1, p{
+	display: inline;
+}
+#text-vid h1{
+	font-size: 22px;
+}
+#text-vid p{
+	
+}
