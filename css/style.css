@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+
 body{
 	background-color: #1b1b1b;
 	margin: 0;
@@ -19,102 +21,121 @@ body{
 	height: 100%;
 }
 #menu-bar ul{
-	float: left;
-	display: inline;
+	background-color: red;
+	list-style: none;
+	padding: 0;
+	margin-top: 0;
+	
 }
 
-#menu-bar ul li {
-	list-style: none;
+#menu-bar ul li{
 	display: inline-block;
 }
 
-#menu-bar a{
-	margin: 10px 35px; 
-	font-family: arial;
+#menu-bar ul li a{
+	font-family: 'Fredoka', sans-serif;
 	color: #fff;
 	text-decoration: none;
-	font-size: 15px;
+	padding: 10px;
+	display: inline-block;
 }
 
-#menu-bar a:hover{
-	color: #919191;
+#menu-bar ul li a:hover{
+	color: #f90;
 }
+/*SUB MENU*/
+#menu-bar ul ul{
+	display: none;
+	background-color: #0f0f0f;
+}
+
+#menu-bar ul li:hover ul{
+	display: block;
+	width: 140px;
+	position: absolute;
+	
+}
+#menu-bar ul ul li a{
+}
+/* ====================================================*/
+
 
 #container{
 	width: 80%;
-	background-color: red;
 	margin: auto;
+	padding: 10px 0 0 0;
+	
 }
 
 .prev-ep{
-	width: 24.65%;
+	font-family: 'Fredoka', sans-serif;
+	width: 100%;
 	background-color: #1b1b1b;
-	margin: 0;
-	display: inline-block;
+	margin: 0 0 10px 0;
 	box-shadow: 3px 3px 20px black;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
-	margin: 10px 0 10px 0;
 }
 .prev-ep img{
-	width: 100%;
-	-webkit-border-top-left-radius: 10px;
-	-webkit-border-top-right-radius: 10px;
-	-moz-border-radius-topleft: 10px;
-	-moz-border-radius-topright: 10px;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
+	display: block;
+	width: 25%;
+	margin: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
 }
 .prev-ep h1{
-	font-size: 12px;
-	margin: 20px;
+	display: inline-block;
+	font-size: 18px;
+	margin: 10px;
+	
+}
+.desc-ep{
+	display: inline-block;
+	margin: 10px;
 }
 .prev-ep a{
+	
 	text-decoration: none;
 	color: #fff;
+
 }
 .prev-ep a:hover{
 	color: #f90;
 	transition: .3s;
 }
 .prev-ep:hover img{
-	opacity: 0.5;
+	opacity: 0.8;
 	transition: .3s;
 }
 
 .player{
 	background-color: #1b1b1b;
 	z-index: 0;
-	width: 75%;
-	height: 800px;
+	width: 100%;
 	box-shadow: 3px 3px 20px black;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
 	margin: auto;
 }
-.player div{
+
+.player h1, p{
+	margin: 30px;
 	display: inline-block;
+	font-family: 'Fredoka', sans-serif;
 }
+.player p{
+	font-size: 18px;
+}
+
 #vid{
-	top: 0;
-	width: 60%;
-	background-color: yellow;
-}
-#vid iframe{
+	display: block;
 	width: 100%;
 }
-#text-vid{
-	width: 39%;
-	background-color: green;
-}
-#text-vid h1, p{
-	display: inline;
-}
-#text-vid h1{
-	font-size: 22px;
-}
-#text-vid p{
-	
+#vid iframe{
+	margin: 10px 0 0 0;
+	width: 100%;
+	height: 400px;
 }
