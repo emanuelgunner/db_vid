@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 
 body{
 	background-color: #1b1b1b;
@@ -8,9 +9,16 @@ body{
 	font-family: arial;
 }
 
+#logo{
+	font-family: 'Bangers', cursive;
+	float: left;
+	margin: 0;
+	padding: 0;
+	font-size: 35px;
+	transform: rotate(10deg);
+}
 #menu-bar{
 	background-color: #0f0f0f;
-	height: 50px;
 	width: 100%;
 	color: #fff;
 	z-index: 1000;
@@ -21,7 +29,7 @@ body{
 	height: 100%;
 }
 #menu-bar ul{
-	background-color: red;
+	background-color: #ff3600;
 	list-style: none;
 	padding: 0;
 	margin-top: 0;
@@ -63,79 +71,27 @@ body{
 #container{
 	width: 80%;
 	margin: auto;
-	padding: 10px 0 0 0;
-	
-}
-
-.prev-ep{
-	font-family: 'Fredoka', sans-serif;
-	width: 100%;
-	background-color: #1b1b1b;
-	margin: 0 0 10px 0;
-	box-shadow: 3px 3px 20px black;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
-}
-.prev-ep img{
-	display: block;
-	width: 25%;
-	margin: 10px;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
-}
-.prev-ep h1{
-	display: inline-block;
-	font-size: 18px;
-	margin: 10px;
-	
-}
-.desc-ep{
-	display: inline-block;
-	margin: 10px;
-}
-.prev-ep a{
-	
-	text-decoration: none;
-	color: #fff;
-
-}
-.prev-ep a:hover{
-	color: #f90;
-	transition: .3s;
-}
-.prev-ep:hover img{
-	opacity: 0.8;
-	transition: .3s;
+	padding: 0;
 }
 
 .player{
 	background-color: #1b1b1b;
 	z-index: 0;
-	width: 100%;
 	box-shadow: 3px 3px 20px black;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
 	margin: auto;
+	padding: 30px;
+}
+.player video{
+	width: 50%;
+	margin: auto;
 }
 
 .player h1, p{
-	margin: 30px;
-	display: inline-block;
 	font-family: 'Fredoka', sans-serif;
 }
 .player p{
 	font-size: 18px;
-}
-
-#vid{
-	display: block;
-	width: 100%;
-}
-#vid iframe{
-	margin: 10px 0 0 0;
-	width: 100%;
-	height: 400px;
 }
