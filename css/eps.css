@@ -1,0 +1,37 @@
+.player{
+	background-color: #1b1b1b;
+	z-index: 0;
+	box-shadow: 3px 3px 20px black;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	margin: auto;
+	padding: 30px;
+}
+.player video{
+	width: 50%;
+}
+
+.player h1, p{
+	font-family: 'Fredoka', sans-serif;
+}
+.player p{
+	font-size: 18px;
+}
+.controles{	
+	text-align: center;
+	padding: 10px;
+}
+.controles a{
+	color: #fff;
+	text-decoration: none;
+	background-color: #393939;
+	padding: 10px;
+	font-family: 'Fredoka', sans-serif;
+}
+.controles a:hover{
+	background-color: #232323;
+	transition: .3s;
+}
+.desc_ep{
+}

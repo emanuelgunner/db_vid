@@ -33,6 +33,7 @@ body{
 	list-style: none;
 	padding: 0;
 	margin-top: 0;
+	z-index: 1000;
 	
 }
 
@@ -49,7 +50,7 @@ body{
 }
 
 #menu-bar ul li a:hover{
-	color: #f90;
+	color: #000;
 }
 /*SUB MENU*/
 #menu-bar ul ul{
@@ -63,6 +64,9 @@ body{
 	position: absolute;
 	
 }
+#menu-bar ul li ul li a:hover{
+	color: #ff3600;
+}
 #menu-bar ul ul li a{
 }
 /* ====================================================*/
@@ -72,26 +76,12 @@ body{
 	width: 80%;
 	margin: auto;
 	padding: 0;
-}
-
-.player{
-	background-color: #1b1b1b;
 	z-index: 0;
-	box-shadow: 3px 3px 20px black;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
-	margin: auto;
-	padding: 30px;
-}
-.player video{
-	width: 50%;
-	margin: auto;
 }
 
-.player h1, p{
-	font-family: 'Fredoka', sans-serif;
-}
-.player p{
-	font-size: 18px;
+.capa_sagas{
+	width: 200px;
+	height: 400px;
+	background-color: red;
+	float: left;
 }
