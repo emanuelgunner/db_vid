@@ -1,0 +1,21 @@
+#container ul{
+	list-style: none;
+}
+#container ul li{
+	display: block;
+	background-color: #393939;
+}
+#container ul li p{
+	padding: 10px;
+	background-color: #ff3600; 
+}
+#container ul li a{
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Fredoka', sans-serif;
+}
+#container ul li a:hover{
+	background-color: blue;
+}
