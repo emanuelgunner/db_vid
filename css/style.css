@@ -91,3 +91,12 @@ body{
 .capa_sagas a:hover{
 	color: #000;
 }
+#rodape{
+	width: 100%;
+}
+#rodape p{
+	padding: 20px;
+	background-color: #ff3600;
+	color: #000;
+	text-align: center;
+}
