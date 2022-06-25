@@ -9,7 +9,7 @@
 	padding: 30px;
 }
 .player video{
-	width: 50%;
+	width: 75%;
 }
 
 .player h1, p{
@@ -20,7 +20,10 @@
 }
 .controles{	
 	text-align: center;
-	padding: 10px;
+	padding: 1px;
+}
+.controles img{
+	height: 10px;
 }
 .controles a{
 	color: #fff;
@@ -28,6 +31,9 @@
 	background-color: #393939;
 	padding: 10px;
 	font-family: 'Fredoka', sans-serif;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 }
 .controles a:hover{
 	background-color: #232323;
